@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "sass --watch --no-source-map style/SCSS/Style.scss style/CSS/Style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.1"
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
   }
 }
