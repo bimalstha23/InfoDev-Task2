@@ -10840,34 +10840,34 @@ body main section .sectionTitle {
   font-weight: 500;
   font-size: 24px;
 }
-body main section .container .row .col-3 .Card {
+body main section .container .row .col-lg-3 .Card {
   width: 263px;
   height: 220px;
   box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
 }
-body main section .container .row .col-3 .Card .icon {
+body main section .container .row .col-lg-3 .Card .icon {
   width: 60px;
   height: 60px;
   background: rgba(26, 135, 230, 0.16);
   border-radius: 50%;
 }
-body main section .container .row .col-3 .Card .cardContent {
+body main section .container .row .col-lg-3 .Card .cardContent {
   color: #666666;
   font-size: 14px;
 }
-body main section .container .row .col-6 .title {
+body main section .container .row .col-lg-6 .title {
   font-family: "Nutino";
   font-weight: 700;
   font-size: 24px;
   color: #666666;
 }
-body main section .container .row .col-6 .description {
+body main section .container .row .col-lg-6 .description {
   color: #666666;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
 }
-body main section .container .row .col-6 img {
+body main section .container .row .col-lg-6 img {
   width: 100%;
 }
 body main section .title .sectionTitle {
@@ -10879,16 +10879,30 @@ body main section .title .sectionSubtitle {
   font-size: 13px;
   font-weight: 500;
 }
-body main section .gridSection .row .col-3 .Card {
+body main section .gridSection .row .col-lg-3 .Card {
+  max-height: fit-content;
   height: 171px;
 }
-body main section .gridSection .row .col-3 .Card .user_detail .user_img {
+body main section .gridSection .row .col-lg-3 .Card .user_detail .user_img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
-body main section .gridSection .col-6 .Card {
+body main section .gridSection .col-lg-6 .Card {
   height: 171px;
   max-height: fit-content;
+}
+
+@media screen and (max-device-width: 480px) {
+  body .navContent {
+    padding: 20px;
+  }
+  body main {
+    padding: 50px;
+  }
+  body main section .gridSection .col-lg-6 .Card {
+    height: fit-content;
+    max-height: fit-content;
+  }
 }
