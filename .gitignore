@@ -4,7 +4,7 @@ node_modules
 .firebase
 /.pnp
 .pnp.js
-
+style/CSS/Style.css
 # testing
 /coverage
 
